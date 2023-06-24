@@ -23,3 +23,11 @@ h4 {
   padding: 16px;
   margin-bottom: 10px;
 }
+.skill-container1 {
+  border: solid rgb(147, 114, 105);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 10px;
+}
