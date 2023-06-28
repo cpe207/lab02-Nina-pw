@@ -5,42 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-  </head>
-  <body bgcolor="#FBF1D5">
-    <h1><font face="Stencil">🌻🌈 My Portfolio ✨🍂</font></h1>
-    <p style="text-align: center">
-      <font face="Bookman Old Style">
-        <a href="index.html">Home</a> ||
-        <a href="experience.html">Experience</a> ||
-        <a href="contact.html"> Contact me</a>
-      </font>
-    </p>
-    <img
-      src="images/IMG-8667.jpg"
-      height="330px"
-      width="350px"
-      style="margin-left: auto; margin-right: auto; display: block"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <h2><font face="GOST Common">🐇 Pimmada Wangsombat 💨</font></h2>
-    <h2 style="color: darkslategray">
-      <font face="JasmineUPC">
-        Hi! I am Nina. I have a beautiful smile. I am studying at Chiang Mai
-        University. Nice to meet you!</font
-      >
-    </h2>
-    <h2 style="color: rgb(93, 16, 32)">
-      <font face="CommercialScript BT">💌 Contact 📞</font>
-    </h2>
-    <div class="skill-container1">
-      <p style="color: darkslategray; text-align: center">
-        Email :
-        <a href="mailto: pimmada_wangsombat@cmu.ac.th"
-          >pimmada_wangsombat@cmu.ac.th</a
-        ><br />
-        Facebook : Pimmada Wangsombat<br />
-        Instagram : nninapw<br />
-        Tel : 086-7945514
-      </p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    body {
+      background-color: #ede9e3;
+    }
+  </style>
+  <body>
+    <div class="my-4">
+      <h1><font face="Stencil">🌻🌈 My Portfolio ✨🍂</font></h1>
+    </div>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="index.html">Home</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="experience.html">Experience</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="contact.html">Contact me</a>
+      </div>
+    </div>
+    <div class="my-4">
+      <h2 style="color: rgb(93, 16, 32)">
+        <font face="CommercialScript BT">💌 Contact 📞</font>
+      </h2>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-5"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="images/me.jpg"
+          style="margin-left: auto; margin-right: auto; display: block"
+          class="rounded-circle"
+          height="250"
+          width="260"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="vstack gap-2" style="max-width: 400px">
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5"> Name</font>
+            </h2>
+          </div>
+          <h2>
+            <span class="text-muted"
+              ><font face="JasmineUPC" size="5">Pimmada Wangsombat</font></span
+            >
+          </h2>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5"> Nickname</font>
+            </h2>
+          </div>
+          <h2>
+            <span class="text-muted"
+              ><font face="JasmineUPC" size="5">Nina</font></span
+            >
+          </h2>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5"> Address</font>
+            </h2>
+          </div>
+          <h2 style="text-align: left">
+            <span class="text-muted"
+              ><font face="JasmineUPC" size="5"
+                >Uniloft Chiang Mai, 147 Moo.14, Su Thep Road, Soi 7, Tambon Su
+                Thep, Amphoe Mueang Chiang Mai, Chiang Mai 50200</font
+              ></span
+            >
+          </h2>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5"> Facebook</font>
+            </h2>
+          </div>
+          <h2>
+            <span class="text-muted"
+              ><a
+                href="https://www.facebook.com/profile.php?id=100009384217257"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <font face="JasmineUPC" size="5">Pimmada Wangsombat</font>
+              </a></span
+            >
+          </h2>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5">Instagram</font>
+            </h2>
+          </div>
+          <h2>
+            <span class="text-muted"
+              ><a
+                href="https://instagram.com/nninapw?igshid=OGQ5ZDc2ODk2ZA=="
+                target="_blank"
+                rel="noreferrer"
+              >
+                <font face="JasmineUPC" size="5">nninapw</font>
+              </a></span
+            >
+          </h2>
+        </div>
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-semibold">
+            <h2 style="color: darkslategray; text-align: left">
+              <font face="JasmineUPC" size="5"> Email</font>
+            </h2>
+          </div>
+          <h2>
+            <span class="text-muted"
+              ><a href="mailto: pimmada_wangsombat@cmu.ac.th"
+                ><font face="JasmineUPC" size="5"
+                  >pimmada_wangsombat@cmu.ac.th</font
+                ></a
+              ></span
+            >
+          </h2>
+        </div>
+      </div>
     </div>
   </body>
 </html>

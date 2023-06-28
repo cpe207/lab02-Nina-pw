@@ -5,7 +5,7 @@ h3 {
 }
 h1,
 h2 {
-  color: lightsalmon;
+  color: #a38f85;
   font-style: normal;
   text-align: center;
 }
@@ -30,4 +30,113 @@ h4 {
   margin-right: auto;
   padding: 16px;
   margin-bottom: 10px;
+}
+.round-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.round-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.round-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  color: #bfc0c0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.button_ {
+  display: inline-flex;
+  height: 40px;
+  width: 200px;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  color: #bfc0c0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #bfc0c0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#button-1 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-1 a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: #bfc0c0;
+  position: absolute;
+  transition: all 0.3s ease-Out;
+}
+
+#button-1:hover #translate {
+  left: 0;
+}
+
+#button-1:hover a {
+  color: #2d3142;
+}
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all 0.35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #bfc0c0;
+  position: absolute;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #2d3142;
 }

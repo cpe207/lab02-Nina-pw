@@ -5,52 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-  </head>
-  <body bgcolor="#FBF1D5">
-    <h1><font face="Stencil">🌻🌈 My Portfolio ✨🍂</font></h1>
-    <p style="text-align: center">
-      <font face="Bookman Old Style">
-        <a href="index.html">Home</a> ||
-        <a href="experience.html">Experience</a> ||
-        <a href="contact.html"> Contact me</a>
-      </font>
-    </p>
-    <img
-      src="images/IMG-8667.jpg"
-      height="330px"
-      width="350px"
-      style="margin-left: auto; margin-right: auto; display: block"
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
-    <h2><font face="GOST Common">🐇 Pimmada Wangsombat 💨</font></h2>
-    <h2 style="color: darkslategray">
-      <font face="JasmineUPC">
-        Hi! I am Nina. I have a beautiful smile. I am studying at Chiang Mai
-        University. Nice to meet you!</font
-      >
-    </h2>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    body {
+      background-color: #ede9e3;
+    }
+  </style>
+  <body>
+    <div class="my-4">
+      <h1><font face="Stencil">🌻🌈 My Portfolio ✨🍂</font></h1>
+    </div>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="index.html">Home</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="experience.html">Experience</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <div class="button" id="button-1">
+        <div id="translate"></div>
+        <a href="contact.html">Contact me</a>
+      </div>
+    </div>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-5"
+      style="max-width: 800px"
+    >
+      <div>
+        <img
+          src="images/me.jpg"
+          style="margin-left: auto; margin-right: auto; display: block"
+          class="rounded-circle"
+          height="250"
+          width="260"
+          style="object-fit: cover"
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">
+          <h2 style="text-align: left">
+            <font face="GOST Common">Pimmada Wangsombat 🐇💨</font>
+          </h2>
+        </div>
+        <hr class="my-1" />
+        <div class="text-muted p-2">
+          <h2 style="color: darkslategray; text-align: left">
+            <font face="JasmineUPC">
+              Hi! I am Nina. I have a beautiful smile. I am studying at Chiang
+              Mai University. Nice to meet you!</font
+            >
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="my-4">
     <h2 style="color: rgb(93, 16, 32)">
       <font face="CommercialScript BT">🪄 Experience 📚</font>
-    </h2>
-    <div class="skill-container">
-      <h3 class="skill-header">
-        <font face="GOST Common">Independent Study Day 🪅</font>
-      </h3>
-      <p style="color: darkslategray">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have the opportunity to participate in
+    </h2></div>
+    <div style="max-width: 800px" class="mx-auto px-3">
+      <div class="d-flex border mb-3 shadow-sm round-all">
+        <div style="min-width: 230px" class="round-left">
+          <img
+            src="images/is.jpg"
+            width="200px"
+            height="200px"
+            style="object-fit: cover"
+            class="round-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <h3 class="skill-header fw-semibold fs-5">
+            <font face="GOST Common">Independent Study Day 🪅</font>
+          </h3>
+          <div class="my-3">
+            <span class="text-muted">
+              <p style="color: darkslategray">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I have the opportunity to participate in
         science projects in learning activities with 5 STEPs Active Learning
         Activities. This success has helped me improve my English communication
         skills, learning and work processes.
-      </p>
-    </div>
-    <div class="skill-container">
-      <h3 class="skill-header">
-        <font face="GOST Common">Interests 🧸</font>
-      </h3>
-      <p style="color: darkslategray">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I love to take pictures.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        I love to listen to music.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I love to
-        travel around the world.
-      </p>
-    </div>
+              </p></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm round-all">
+        <div class="p-4">
+          <h3 class="skill-header fw-semibold fs-5">
+            <font face="GOST Common">Interests 🧸</font>
+          </h3>
+          <div style="min-width: 510px" class="my-3">
+            <span class="text-muted">
+              <p style="color: darkslategray">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I love to take pictures, especially of the sky.
+                <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        I love to listen to music because of the vibe and mood of the moment.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I would love to
+        travel around the world If I had money.
+              </p></span
+            >
+          </div>
+        </div>
+        <div class="round-right">
+          <img
+            src="images/interest.jpg"
+            width="191px"
+            height="180px"
+            style="object-fit: cover"
+            class="round-right d-none d-sm-block"
+          />
+        </div>
+      </div>
   </body>
 </html>
